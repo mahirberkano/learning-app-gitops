@@ -1,6 +1,6 @@
 image:
   repository: mahirberkan/learning-app
-  tag: "df029f6"
+  tag: "29c1f97"
   pullPolicy: Always
 
 replicas: 4
