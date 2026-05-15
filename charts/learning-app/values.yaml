@@ -1,7 +1,7 @@
 image:
-  repository: learning-app
+  repository: mahirberkan/learning-app
   tag: "0.1.0"
-  pullPolicy: Never
+  pullPolicy: Always
 
 replicas: 4
 
