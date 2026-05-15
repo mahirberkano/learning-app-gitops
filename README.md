@@ -32,7 +32,8 @@ learning-app-gitops/
             ├── redis.yaml
             ├── deployment.yaml
             ├── service.yaml
-            └── ingress.yaml
+            ├── ingress.yaml
+            └── hpa.yaml           # CPU-based autoscaling (2-10 replicas)
 ```
 
 ## App of Apps Pattern
