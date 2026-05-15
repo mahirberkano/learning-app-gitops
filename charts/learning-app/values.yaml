@@ -1,0 +1,21 @@
+image:
+  repository: learning-app
+  tag: "0.1.0"
+  pullPolicy: Never
+
+replicas: 2
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 64Mi
+  limits:
+    cpu: 500m
+    memory: 128Mi
+
+redis:
+  addr: "redis:6379"
+
+ingress:
+  enabled: true
+  path: /app
